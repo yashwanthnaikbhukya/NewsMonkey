@@ -23,15 +23,14 @@ export class NavBar extends Component {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item"><a className="nav-link" href="#">Top-Headlines</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">Top HeadLines</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">business</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">entertainment</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">general</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">health</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">science</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">sports</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">technology</a></li>
+              <li className="nav-item"><a className="nav-link" href="/general">Home</a></li>
+              <li className="nav-item"><a className="nav-link" href="business">business</a></li>
+              <li className="nav-item"><a className="nav-link" href="/entertainment">entertainment</a></li>
+              <li className="nav-item"><a className="nav-link" href="general">general</a></li>
+              <li className="nav-item"><a className="nav-link" href="/health">health</a></li>
+              <li className="nav-item"><a className="nav-link" href="/science">science</a></li>
+              <li className="nav-item"><a className="nav-link" href="/sports">sports</a></li>
+              <li className="nav-item"><a className="nav-link" href="/technology">technology</a></li>
             </ul>
           </div>
         </nav>
