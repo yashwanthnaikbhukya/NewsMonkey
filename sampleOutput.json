@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 54,
+  "articles": [
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "fdemott@insider.com (Filip De Mott)",
+      "title": "Bitcoin could see a wave of forced selling as miners face the reality of lower rewards post-halving, research firm says",
+      "description": "\"If miners were forced to sell even a fraction of their holdings over the coming month this would have a negative impact on markets,\" Kaiki Research wrote.",
+      "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-supply-crypto-currency-miners-btc-sell-off-decline-2024-5",
+      "urlToImage": "https://i.insider.com/6643af41b4abc992e8c96de5?width=1200&format=jpeg",
+      "publishedAt": "2024-05-15T12:17:10Z",
+      "content": "Markets have long considered bitcoin's recent halving as a major price bolster, but it could bring a wave of selling from one corner of the sector, according to Kaiko Research.\r\nThe April halving is … [+1708 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Andy Greenberg",
+      "title": "A Vast New Dataset Could Supercharge the AI Hunt for Crypto Money Laundering",
+      "description": "Blockchain analysis firm Elliptic, MIT, and IBM, have released a new AI detection model—and the 200-million-transaction dataset it's trained on—that aims to spot the “shape” of Bitcoin money laundering.",
+      "url": "https://www.wired.com/story/ai-crypto-tracing-model-money-laundering/",
+      "urlToImage": "https://media.wired.com/photos/6631a1936dc0c77846852ed5/191:100/w_1280,c_limit/Crypto-Money-Laundering-Security-GettyImages-1543076825.jpg",
+      "publishedAt": "2024-05-01T13:00:00Z",
+      "content": "As a test of their resulting AI tool, the researchers checked its outputs with one cryptocurrency exchangewhich the paper doesn't nameidentifying 52 suspicious chains of transactions that had all ult… [+3279 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Joel Khalili",
+      "title": "Craig Wright Lied About Creating Bitcoin And Faked Evidence, Judge Rules",
+      "description": "A UK judge has determined that Craig Wright forged evidence in a campaign to prove he is Satoshi Nakamoto, creator of Bitcoin, in a move that prevents him from bringing further lawsuits in the country.",
+      "url": "https://www.wired.com/story/craig-wright-lied-faked-evidence-bitcoin-judge-says/",
+      "urlToImage": "https://media.wired.com/photos/663964ab2a04ee031b4d1808/191:100/w_1280,c_limit/Craig-Wright-Sentencing-Business-2024583568.jpg",
+      "publishedAt": "2024-05-20T11:01:15Z",
+      "content": "Weve seen a cascading effect from the pronouncement on a host of other litigations globally, says Grewal. For people outside of crypto, [all this] might sound cartoonish. But with Wrights claims fall… [+3320 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Joel Khalili",
+      "title": "FTX Creditors Say Payout Deal Is 'an Insult'—and Plan to Revolt",
+      "description": "FTX has a plan to repay its former crypto customers more than the billions of dollars they lost in the latest bankruptcy proposal. But some will reject it anyway.",
+      "url": "https://www.wired.com/story/ftx-creditors-crypto-payout-rejection/",
+      "urlToImage": "https://media.wired.com/photos/663ba309e6755459097533ca/191:100/w_1280,c_limit/FTX-Bankruptcy-Business-GettyImages-1245052532.jpg",
+      "publishedAt": "2024-05-08T17:00:02Z",
+      "content": "Some creditors of the bankrupt crypto exchange FTX are preparing to reject a plan that would see them recover 118 percent of the money they lost. The proposal is far less generous than it might seem,… [+2945 chars]"
+    }
+  ]
+}
