@@ -38,12 +38,12 @@ export class News extends Component {
       loading: true
     });
     let data = await fetch(url);
-    this.props.setProgress(40);
+    this.props.setProgress(30);
     let parsedData = await data.json();
     this.props.setProgress(70);
     this.setState({
-      articles: parsedData.articles,
-      totalResults: parsedData.totalResults,
+      articles: parsedData.articles || [],
+      totalResults: parsedData.totalResults || 0,
       loading: false
     })
     this.props.setProgress(100);
@@ -75,8 +75,8 @@ export class News extends Component {
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({
-            articles: this.state.articles.concat(parsedData.articles),
-            totalResults: parsedData.totalResults
+            articles: (this.state.articles || []).concat(parsedData.articles || []),
+            totalResults: parsedData.totalResults || 0
         });
     });
 };
@@ -89,15 +89,15 @@ export class News extends Component {
         {this.state.loading && <Spinner/>}
 
         <InfiniteScroll
-        dataLength={this.state.articles.length}
+        dataLength={this.state.articles? this.state.articles.length : 0}
         next={this.fetchMoreData}
-        hasMore={this.state.articles.length !== this.state.totalResults}
+        hasMore={ this.state.articles && this.state.articles.length !== this.state.totalResults}
         loader={<Spinner/>}
         >
 
         <div className="container">
         <div className="row">
-        {this.state.articles.map((element) => {
+        {this.state.articles && this.state.articles.map((element) => {
           return <div className="col-md-3" key={element.url}>
             <NewsItem title={element.title?element.title:""} description={element.description?element.description:""} imageUrl={element.urlToImage} newsUrl={element.url} author={!element.author?"Unknown":element.author} date={element.publishedAt} source={element.source.name} />
 
