@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import React, { Component } from "react";
 
 export class NavBar extends Component {
@@ -6,7 +6,7 @@ export class NavBar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             NewMonkey
           </a>
           <button
@@ -24,13 +24,13 @@ export class NavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item"><a className="nav-link" href="/general">Home</a></li>
-              <li className="nav-item"><a className="nav-link" href="business">business</a></li>
-              <li className="nav-item"><a className="nav-link" href="/entertainment">entertainment</a></li>
-              <li className="nav-item"><a className="nav-link" href="general">general</a></li>
-              <li className="nav-item"><a className="nav-link" href="/health">health</a></li>
-              <li className="nav-item"><a className="nav-link" href="/science">science</a></li>
-              <li className="nav-item"><a className="nav-link" href="/sports">sports</a></li>
-              <li className="nav-item"><a className="nav-link" href="/technology">technology</a></li>
+              <li className="nav-item"><a className="nav-link" href="business">Business</a></li>
+              <li className="nav-item"><a className="nav-link" href="/entertainment">Entertainment</a></li>
+              <li className="nav-item"><a className="nav-link" href="general">General</a></li>
+              <li className="nav-item"><a className="nav-link" href="/health">Health</a></li>
+              <li className="nav-item"><a className="nav-link" href="/science">Science</a></li>
+              <li className="nav-item"><a className="nav-link" href="/sports">Sports</a></li>
+              <li className="nav-item"><a className="nav-link" href="/technology">Technology</a></li>
             </ul>
           </div>
         </nav>
