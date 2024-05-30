@@ -16,6 +16,7 @@ export class News extends Component {
     pageSize: PropTypes.number,
     category: PropTypes.string
   }
+  
   capitalizeFirstLetter = (string) =>{
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
